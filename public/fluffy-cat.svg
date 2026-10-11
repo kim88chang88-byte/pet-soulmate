@@ -1,0 +1,266 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="cardBg" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#f8f4ff"/>
+      <stop offset="55%" stop-color="#ede4ff"/>
+      <stop offset="100%" stop-color="#d8c8f8"/>
+    </radialGradient>
+    <radialGradient id="catHead" cx="42%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#f8f4f0"/>
+      <stop offset="58%" stop-color="#e8dcd0"/>
+      <stop offset="100%" stop-color="#d4c4b0"/>
+    </radialGradient>
+    <radialGradient id="catBody" cx="50%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#f0e8e0"/>
+      <stop offset="65%" stop-color="#d8c8b8"/>
+      <stop offset="100%" stop-color="#c0a888"/>
+    </radialGradient>
+    <radialGradient id="eyeL" cx="38%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#98d098"/>
+      <stop offset="45%" stop-color="#68a868"/>
+      <stop offset="100%" stop-color="#407840"/>
+    </radialGradient>
+    <radialGradient id="eyeR" cx="62%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#98d098"/>
+      <stop offset="45%" stop-color="#68a868"/>
+      <stop offset="100%" stop-color="#407840"/>
+    </radialGradient>
+    <linearGradient id="earInner" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb0c4"/>
+      <stop offset="100%" stop-color="#ffd0de"/>
+    </linearGradient>
+    <linearGradient id="fluffyFur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8dcd0"/>
+      <stop offset="100%" stop-color="#c8b09a"/>
+    </linearGradient>
+    <linearGradient id="crownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd080"/>
+      <stop offset="100%" stop-color="#e0a030"/>
+    </linearGradient>
+    <linearGradient id="rbTop" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb3c1"/><stop offset="17%" stop-color="#ffd6b3"/>
+      <stop offset="34%" stop-color="#fffab3"/><stop offset="50%" stop-color="#b3f4d2"/>
+      <stop offset="67%" stop-color="#b3d6f4"/><stop offset="84%" stop-color="#c8b3f4"/>
+      <stop offset="100%" stop-color="#ffb3c1"/>
+    </linearGradient>
+    <linearGradient id="rbBottom" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffb3c1"/><stop offset="17%" stop-color="#ffd6b3"/>
+      <stop offset="34%" stop-color="#fffab3"/><stop offset="50%" stop-color="#b3f4d2"/>
+      <stop offset="67%" stop-color="#b3d6f4"/><stop offset="84%" stop-color="#c8b3f4"/>
+      <stop offset="100%" stop-color="#ffb3c1"/>
+    </linearGradient>
+    <linearGradient id="rbLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8b3f4"/><stop offset="20%" stop-color="#ffb3c1"/>
+      <stop offset="40%" stop-color="#ffd6b3"/><stop offset="60%" stop-color="#fffab3"/>
+      <stop offset="80%" stop-color="#b3f4d2"/><stop offset="100%" stop-color="#b3d6f4"/>
+    </linearGradient>
+    <linearGradient id="rbRight" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#c8b3f4"/><stop offset="20%" stop-color="#ffb3c1"/>
+      <stop offset="40%" stop-color="#ffd6b3"/><stop offset="60%" stop-color="#fffab3"/>
+      <stop offset="80%" stop-color="#b3f4d2"/><stop offset="100%" stop-color="#b3d6f4"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bokeh"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="5" stdDeviation="14" flood-color="rgba(80,60,40,0.14)"/>
+    </filter>
+    <filter id="tglow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cc"><rect x="40" y="40" width="944" height="944" rx="22"/></clipPath>
+  </defs>
+
+  <!-- Outer frame -->
+  <rect width="1024" height="1024" rx="28" fill="#b0a0c8"/>
+
+  <!-- Inner card -->
+  <rect x="40" y="40" width="944" height="944" rx="22" fill="url(#cardBg)"/>
+
+  <!-- Bokeh circles -->
+  <circle cx="220" cy="300" r="90" fill="#d8c8ff" filter="url(#bokeh)" opacity="0.45"/>
+  <circle cx="780" cy="240" r="70" fill="#c8b8f8" filter="url(#bokeh)" opacity="0.4"/>
+  <circle cx="800" cy="720" r="110" fill="#e8d4ff" filter="url(#bokeh)" opacity="0.38"/>
+  <circle cx="180" cy="780" r="80" fill="#d0c0f8" filter="url(#bokeh)" opacity="0.35"/>
+  <circle cx="512" cy="570" r="155" fill="#ecdcff" filter="url(#bokeh)" opacity="0.3"/>
+
+  <!-- Holographic border -->
+  <rect x="40" y="40"  width="944" height="82" fill="url(#rbTop)"    opacity="0.82" clip-path="url(#cc)"/>
+  <rect x="40" y="902" width="944" height="82" fill="url(#rbBottom)" opacity="0.82" clip-path="url(#cc)"/>
+  <rect x="40" y="40"  width="82"  height="944" fill="url(#rbLeft)"  opacity="0.82" clip-path="url(#cc)"/>
+  <rect x="922" y="40" width="82"  height="944" fill="url(#rbRight)" opacity="0.82" clip-path="url(#cc)"/>
+  <rect x="40" y="40" width="944" height="944" rx="22" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="4"/>
+  <rect x="48" y="48" width="928" height="928" rx="18" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="2"/>
+
+  <!-- Paw prints -->
+  <g transform="translate(96,78)" opacity="0.62">
+    <ellipse cx="0" cy="0" rx="11" ry="8" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-15" cy="-9" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-5" cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="6"  cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="15" cy="-9"  rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+  </g>
+  <g transform="translate(928,78)" opacity="0.62">
+    <ellipse cx="0" cy="0" rx="11" ry="8" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-15" cy="-9" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-5" cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="6"  cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="15" cy="-9"  rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+  </g>
+  <g transform="translate(96,946)" opacity="0.62">
+    <ellipse cx="0" cy="0" rx="11" ry="8" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-15" cy="-9" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-5" cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="6"  cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="15" cy="-9"  rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+  </g>
+  <g transform="translate(928,946)" opacity="0.62">
+    <ellipse cx="0" cy="0" rx="11" ry="8" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-15" cy="-9" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="-5" cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="6"  cy="-16" rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+    <ellipse cx="15" cy="-9"  rx="6" ry="5" fill="rgba(130,100,160,0.5)"/>
+  </g>
+
+  <!-- Border stars -->
+  <text x="168" y="88" text-anchor="middle" font-size="24" fill="rgba(255,224,100,0.82)">★</text>
+  <text x="300" y="88" text-anchor="middle" font-size="17" fill="rgba(220,190,255,0.82)">✦</text>
+  <text x="724" y="88" text-anchor="middle" font-size="17" fill="rgba(220,190,255,0.82)">✦</text>
+  <text x="856" y="88" text-anchor="middle" font-size="24" fill="rgba(255,224,100,0.82)">★</text>
+  <text x="168" y="978" text-anchor="middle" font-size="24" fill="rgba(255,224,100,0.82)">★</text>
+  <text x="300" y="978" text-anchor="middle" font-size="17" fill="rgba(220,190,255,0.82)">✦</text>
+  <text x="724" y="978" text-anchor="middle" font-size="17" fill="rgba(220,190,255,0.82)">✦</text>
+  <text x="856" y="978" text-anchor="middle" font-size="24" fill="rgba(255,224,100,0.82)">★</text>
+
+  <!-- TOP TEXT -->
+  <text x="512" y="155" text-anchor="middle" font-size="62" font-weight="900"
+        font-family="'Arial Rounded MT Bold','Arial Black',Arial,sans-serif"
+        fill="none" stroke="rgba(120,80,160,0.25)" stroke-width="18" stroke-linejoin="round">FOREST QUEEN</text>
+  <text x="512" y="155" text-anchor="middle" font-size="62" font-weight="900"
+        font-family="'Arial Rounded MT Bold','Arial Black',Arial,sans-serif"
+        fill="white" stroke="rgba(160,120,210,0.65)" stroke-width="4.5" paint-order="stroke" filter="url(#tglow)">FOREST QUEEN</text>
+
+  <!-- Aura -->
+  <ellipse cx="512" cy="585" rx="305" ry="325" fill="rgba(200,180,255,0.2)" filter="url(#bokeh)"/>
+
+  <!-- Fluffy body (wider, fluffier) -->
+  <ellipse cx="512" cy="855" rx="255" ry="200" fill="url(#catBody)"/>
+  <!-- Fluffy chest/collar fur -->
+  <ellipse cx="512" cy="730" rx="175" ry="85" fill="url(#fluffyFur)" opacity="0.7"/>
+  <!-- Neck -->
+  <rect x="445" y="668" width="134" height="120" rx="26" fill="url(#catBody)"/>
+
+  <!-- Fluffy ear tufts -->
+  <!-- Left ear outer -->
+  <polygon points="308,388 355,262 435,388" fill="url(#catHead)" filter="url(#shadow)"/>
+  <!-- Left ear inner -->
+  <polygon points="322,382 356,283 426,382" fill="url(#earInner)"/>
+  <!-- Left ear tuft (wispy tip) -->
+  <polygon points="338,282 355,245 370,282" fill="url(#fluffyFur)" opacity="0.85"/>
+
+  <!-- Right ear outer -->
+  <polygon points="589,388 669,262 716,388" fill="url(#catHead)" filter="url(#shadow)"/>
+  <!-- Right ear inner -->
+  <polygon points="598,382 668,283 704,382" fill="url(#earInner)"/>
+  <!-- Right ear tuft -->
+  <polygon points="654,282 669,245 684,282" fill="url(#fluffyFur)" opacity="0.85"/>
+
+  <!-- Head -->
+  <ellipse cx="512" cy="530" rx="228" ry="216" fill="url(#catHead)" filter="url(#shadow)"/>
+
+  <!-- Fluffy cheek fur -->
+  <ellipse cx="336" cy="580" rx="65" ry="45" fill="url(#fluffyFur)" opacity="0.6"/>
+  <ellipse cx="688" cy="580" rx="65" ry="45" fill="url(#fluffyFur)" opacity="0.6"/>
+
+  <!-- Forehead highlight -->
+  <ellipse cx="512" cy="472" rx="155" ry="94" fill="rgba(255,255,255,0.35)"/>
+
+  <!-- Eyes (green) -->
+  <ellipse cx="430" cy="524" rx="52" ry="44" fill="#22222a"/>
+  <ellipse cx="430" cy="524" rx="45" ry="37" fill="url(#eyeL)"/>
+  <ellipse cx="430" cy="524" rx="15" ry="23" fill="#141414"/>
+  <circle cx="413" cy="508" r="13" fill="white" opacity="0.92"/>
+  <circle cx="444" cy="538" r="6.5" fill="white" opacity="0.68"/>
+  <ellipse cx="430" cy="524" rx="45" ry="37" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="2.5"/>
+
+  <ellipse cx="594" cy="524" rx="52" ry="44" fill="#22222a"/>
+  <ellipse cx="594" cy="524" rx="45" ry="37" fill="url(#eyeR)"/>
+  <ellipse cx="594" cy="524" rx="15" ry="23" fill="#141414"/>
+  <circle cx="577" cy="508" r="13" fill="white" opacity="0.92"/>
+  <circle cx="608" cy="538" r="6.5" fill="white" opacity="0.68"/>
+  <ellipse cx="594" cy="524" rx="45" ry="37" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="2.5"/>
+
+  <!-- Nose -->
+  <polygon points="512,598 493,623 531,623" fill="#ffa8bc"/>
+  <ellipse cx="503" cy="608" rx="6" ry="4.5" fill="rgba(255,255,255,0.55)"/>
+
+  <!-- Mouth -->
+  <path d="M493,623 Q512,650 531,623" fill="none" stroke="rgba(100,55,65,0.6)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M488,636 Q493,623 512,629" fill="none" stroke="rgba(100,55,65,0.48)" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M536,636 Q531,623 512,629" fill="none" stroke="rgba(100,55,65,0.48)" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="368" cy="578" rx="42" ry="26" fill="rgba(255,155,175,0.28)"/>
+  <ellipse cx="656" cy="578" rx="42" ry="26" fill="rgba(255,155,175,0.28)"/>
+
+  <!-- Long whiskers -->
+  <line x1="265" y1="600" x2="460" y2="613" stroke="rgba(175,155,145,0.65)" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="252" y1="619" x2="460" y2="623" stroke="rgba(175,155,145,0.65)" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="264" y1="638" x2="461" y2="633" stroke="rgba(175,155,145,0.65)" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="564" y1="613" x2="759" y2="600" stroke="rgba(175,155,145,0.65)" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="564" y1="623" x2="772" y2="619" stroke="rgba(175,155,145,0.65)" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="563" y1="633" x2="760" y2="638" stroke="rgba(175,155,145,0.65)" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Gold crown (regal!) -->
+  <!-- Crown base -->
+  <path d="M398,300 L626,300 L626,340 L398,340 Z" fill="url(#crownGrad)"/>
+  <!-- Crown points -->
+  <polygon points="408,300 432,240 456,300" fill="url(#crownGrad)"/>
+  <polygon points="490,300 512,225 534,300" fill="url(#crownGrad)"/>
+  <polygon points="568,300 592,240 616,300" fill="url(#crownGrad)"/>
+  <!-- Crown highlights -->
+  <rect x="398" y="334" width="228" height="8" rx="4" fill="rgba(255,255,200,0.5)"/>
+  <!-- Crown gems -->
+  <circle cx="432" cy="270" r="10" fill="#ff6080"/>
+  <circle cx="512" cy="252" r="12" fill="#80c0ff"/>
+  <circle cx="592" cy="270" r="10" fill="#80e080"/>
+  <circle cx="432" cy="270" r="5" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="512" cy="252" r="6" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="592" cy="270" r="5" fill="rgba(255,255,255,0.7)"/>
+  <!-- Crown outline -->
+  <path d="M398,300 L408,300 L432,240 L456,300 L490,300 L512,225 L534,300 L568,300 L592,240 L616,300 L626,300 L626,340 L398,340 Z"
+        fill="none" stroke="rgba(200,160,40,0.7)" stroke-width="3"/>
+
+  <!-- Floating hearts -->
+  <text x="210" y="445" font-size="48" fill="#c890e0" opacity="0.88" filter="url(#glow)">♥</text>
+  <text x="154" y="558" font-size="30" fill="#e0b8f0" opacity="0.72">♥</text>
+  <text x="770" y="432" font-size="38" fill="#ffd870" opacity="0.85" filter="url(#glow)">♥</text>
+  <text x="822" y="552" font-size="28" fill="#ffe4b4" opacity="0.74">♥</text>
+  <text x="246" y="725" font-size="26" fill="#b4d4a8" opacity="0.68">♥</text>
+  <text x="762" y="722" font-size="34" fill="#c890e0" opacity="0.76">♥</text>
+
+  <!-- Sparkles -->
+  <g transform="translate(178,348)" filter="url(#glow)">
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#ffe8a0" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#ffe8a0" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-14" y1="-14" x2="14" y2="14" stroke="#ffe8a0" stroke-width="2" stroke-linecap="round"/>
+    <line x1="14" y1="-14" x2="-14" y2="14" stroke="#ffe8a0" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="4.5" fill="#fffcc0"/>
+  </g>
+  <g transform="translate(842,348)" filter="url(#glow)">
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#d4b8f8" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#d4b8f8" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#d4b8f8" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="12" y1="-12" x2="-12" y2="12" stroke="#d4b8f8" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3.5" fill="#e8d4ff"/>
+  </g>
+
+  <!-- BOTTOM TEXT -->
+  <text x="512" y="960" text-anchor="middle" font-size="58" font-weight="900"
+        font-family="'Arial Rounded MT Bold','Arial Black',Arial,sans-serif"
+        fill="none" stroke="rgba(100,70,140,0.22)" stroke-width="14" stroke-linejoin="round">MAINE COON</text>
+  <text x="512" y="960" text-anchor="middle" font-size="58" font-weight="900"
+        font-family="'Arial Rounded MT Bold','Arial Black',Arial,sans-serif"
+        fill="white" stroke="rgba(155,115,200,0.68)" stroke-width="4" paint-order="stroke" filter="url(#tglow)">MAINE COON</text>
+</svg>
